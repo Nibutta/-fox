@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>javascript testing</title>
+</head>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<body>
+	<script type="text/javascript">
+	var arr = new Array('str', 1.23,7,false);
+	for(var i=0; i<arr.length; i++) 
+		document.write(arr[i] + '<br />');
+	arr= new Array();
+	for (i=0; i<10; i++) {
+		arr[i]=i*3;
+		document.write(arr[i] + '<br />');
+	}
+
+	var summ=0;
+	for (i=0;i<arr.length; i++) 
+		summ += arr[i];
+		document.write(' сумма равна = ' + (summ));
+
+	
+
+
+	
+	</script>
+	
+	
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>javascript testing</title>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+
+<body>
+	<script type="text/javascript">
+
+	for (var i = 0; i < 10 ; i++) {
+			if(i %3 == 0 && i!=0) continue;
+			if(i==8) break;
+			document.write(i + "<br />");
+		}	
+		var x = 0; 
+
+		while (x < 10) {
+			document.write(x + "<br />");
+			x+=2;
+		}
+
+		var y = 1000;
+		do {
+			
+			document.write(y + "выполнен" + '<br/>');
+			y-=50;
+			} while(y > 100)
+	</script>
+	
+	
+
+</body>
+</html>
